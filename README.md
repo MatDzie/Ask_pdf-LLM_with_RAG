@@ -10,5 +10,6 @@ This repository will be used to create proof of concept for LLM chat with Retrie
 
 # Setup
 - pip install openai
+- pip install chromadb
 - pip install pypdf
 - set environment variable OPENAI_API_KEY="your-api-key-here"
