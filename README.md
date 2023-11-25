@@ -3,7 +3,7 @@
 This repository contains Jupyter Notebook proof of concept for LLM chat with Retrieval Augmented Generation from pdf files using embeddings in vector database.
 
 # Tech stack
-- **gpt-3.5-turbo-1106** - *LLM fine-tuned for chat purpouse*
+- **gpt-3.5-turbo-1106** - *LLM used for formulating answer based on context from files*
 - **all-mpnet-base-v2** - *embeddings model*
 - **chroma** - *vector data base to store embeddings*
 - **pypdf** - *pdf parsing*
