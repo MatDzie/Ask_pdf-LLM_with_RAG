@@ -1,15 +1,16 @@
 # LLM-Chat-with-RAG
 
-This repository will be used to create proof of concept for LLM chat with Retrieval Augmented Generation from files using embeddings in vector database.
+This repository contains Jupyter Notebook proof of concept for LLM chat with Retrieval Augmented Generation from pdf files using embeddings in vector database.
 
 # Tech stack
 - **gpt-3.5-turbo-1106** - *LLM fine-tuned for chat purpouse*
-- **embedding-model** - to be defined
+- **all-mpnet-base-v2** - *embeddings model*
 - **chroma** - *vector data base to store embeddings*
-- **pypdf** - for pdf parsing
+- **pypdf** - *pdf parsing*
 
 # Setup
-- pip install openai
-- pip install chromadb
-- pip install pypdf
+```
+pip install -U langchain openai chromadb pydpf pip sentence-transformers
+```
 - set environment variable OPENAI_API_KEY="your-api-key-here"
+- place .pdf files that you would like to use for RAG in data/ folder
