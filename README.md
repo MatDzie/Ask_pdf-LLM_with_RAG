@@ -16,4 +16,4 @@ pip install -U langchain openai chromadb pydpf pip sentence-transformers
 - place `.pdf` files that you would like to use for RAG in `data` folder inside repo main folder
 
 # Flow diagram
-<![RAG-diagram](RAG-diagram.png)>
+![RAG-diagram](RAG-diagram.png)
