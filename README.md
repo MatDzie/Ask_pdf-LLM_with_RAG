@@ -13,4 +13,7 @@ This repository contains Jupyter Notebook proof of concept for LLM chat with Ret
 pip install -U langchain openai chromadb pydpf pip sentence-transformers
 ```
 - set environment variable `OPENAI_API_KEY="your-api-key-here"`
-- place .pdf files that you would like to use for RAG in data/ folder
+- place `.pdf` files that you would like to use for RAG in `data` folder inside repo main folder
+
+# Flow diagram
+<![RAG-diagram](RAG-diagram.svg)>
