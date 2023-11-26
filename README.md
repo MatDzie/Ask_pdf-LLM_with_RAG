@@ -4,7 +4,7 @@ This repository contains Jupyter Notebook proof of concept for LLM chat with Ret
 
 # Tech stack
 - **gpt-3.5-turbo-1106** - *LLM used for formulating answer based on context from files*
-- **all-mpnet-base-v2** - *embeddings model*
+- **all-MiniLM-L6-v2** - *embeddings model*
 - **chroma** - *vector data base to store embeddings*
 - **pypdf** - *pdf parsing*
 
@@ -12,5 +12,5 @@ This repository contains Jupyter Notebook proof of concept for LLM chat with Ret
 ```
 pip install -U langchain openai chromadb pydpf pip sentence-transformers
 ```
-- set environment variable OPENAI_API_KEY="your-api-key-here"
+- set environment variable `OPENAI_API_KEY="your-api-key-here"`
 - place .pdf files that you would like to use for RAG in data/ folder
