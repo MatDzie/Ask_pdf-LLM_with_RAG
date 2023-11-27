@@ -17,3 +17,12 @@ pip install -U langchain openai chromadb pydpf pip sentence-transformers
 
 # Flow diagram
 ![RAG-diagram](RAG-diagram.png)
+
+# Things to improve
+
+Have in mind this code is just a proof of concept for demonstration purpose that has many flaws and places for improvement before it may become ready for production use:
+- advanced context building based on retrieved chunks
+- use of smaller model for key information extraction
+- advanced system message that will contain few-shot learning
+- validation of LLM final response
+- and much more :)
