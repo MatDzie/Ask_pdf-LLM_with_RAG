@@ -1,11 +1,11 @@
 # LLM-Chat-with-RAG
 
-This repository contains Jupyter Notebook proof of concept for LLM chat with Retrieval Augmented Generation from pdf files using embeddings in vector database.
+This repository contains Jupyter Notebook with proof of concept for LLM chat with Retrieval Augmented Generation from pdf files using embeddings in vector database.
 
 # Tech stack
 - **gpt-3.5-turbo-1106** - *LLM used for formulating answer based on context from files*
 - **all-MiniLM-L6-v2** - *embeddings model*
-- **chroma** - *vector data base to store embeddings*
+- **chroma** - *vector data base to store pdf's embeddings*
 - **pypdf** - *pdf parsing*
 
 # Setup
