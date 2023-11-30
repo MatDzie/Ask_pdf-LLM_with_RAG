@@ -1,6 +1,8 @@
-# Ask_pdf-LLM_with_RAG
+# Basic_RAG_example
 
-This repository contains Jupyter Notebook with proof of concept for LLM with Retrieval Augmented Generation from pdf files using embeddings in vector database.
+This repository contains Jupyter Notebook with basic implementation of LLM that is using Retrieval Augmented Generation from pdf files using embeddings in vector database.
+
+**In short words**: you can ask LLM a question and it can answer to it based on context from your .pdf files
 
 # Tech stack
 - **gpt-3.5-turbo-1106** - *LLM used for formulating answer based on context from files*
@@ -20,7 +22,7 @@ pip install -U langchain openai chromadb pydpf pip sentence-transformers
 
 # Things to improve
 
-Have in mind this code is just a proof of concept for demonstration purpose that has many flaws and places for improvement before it may become ready for production use:
+Have in mind this code is just a basic implementation for demonstration purpose that has many flaws and places for improvement before it may become ready for production use:
 - advanced context building based on retrieved chunks
 - use of smaller model for key information extraction
 - advanced system message that will contain few-shot learning
